@@ -45,7 +45,7 @@ public class ProductImpl implements ProductService {
 		Electronics ele3=new Electronics();
 		Collection<Electronics> elect =new ArrayList<>();
 		
-		elect=null;
+		
 		
 		try
 		{
@@ -115,7 +115,7 @@ public class ProductImpl implements ProductService {
 		FoodItems food3=new FoodItems();
 		Collection<FoodItems> foods =new ArrayList<>();
 		
-		foods=null;
+
 		try
 		{
 			if(foodItems.size()<3)
@@ -187,7 +187,7 @@ public class ProductImpl implements ProductService {
 		Collection<Apparel> apps =new ArrayList<>();
 		
 		
-		apps=null;
+
 		try
 		{
 			if(apparels.size()<3)
